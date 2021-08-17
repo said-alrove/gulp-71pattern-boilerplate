@@ -1,4 +1,4 @@
-# smacss
+# 7-1-pattern
 This is a boilerplate of the structure that I'm currently using in my projects when choosing the 7-1 pattern, this will be uploaded over time.
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.

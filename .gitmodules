@@ -1,4 +1,3 @@
-
 [submodule "src/scss/02-vendors"]
 	path = src/scss/02-vendors
 	url = https://github.com/said-alrove/mixins-sass.git

@@ -15,7 +15,7 @@ function dev() {
   }
   browserSync.init({
     server: {
-        baseDir: "./public/"
+      baseDir: "./public/"
     }
   });
   watch("./src/*.html", gulpConfig, html).on("change", reload);

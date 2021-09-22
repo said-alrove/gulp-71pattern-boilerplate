@@ -118,7 +118,7 @@ If you don't know anything about what I've mentioned before, I encourage you to 
 
     - As an alternative, you can remove the imagesQuality variable and add an independent value to each config object located in the tasks but there's not much sense on don't preserve consistency in images quality.
 
-* > **Important:** [**PurgeCSS**]() is automatically connected with all the HTML files to help you avoid adding styles to elements or classes/ids that don't really exist, therefore if you write styles for an element that it's not included in any of your HTML files, those styles won't be included in the public version once they're processed by Gulp.
+* > **Important:** [**PurgeCSS**](https://www.npmjs.com/package/purgecss) is automatically connected with all the HTML files to help you avoid adding styles to elements or classes/ids that don't really exist, therefore if you write styles for an element that it's not included in any of your HTML files, those styles won't be included in the public version once they're processed by Gulp.
 
     - But, ***what happens when you're trying to inject a class/id from Javascript?*** In those cases you'll need to add those classes manually to an invisible helper element (that's already in the index file to give you a hand), that way PurgeCSS won't exclude the styles from the final result.
 

@@ -25,3 +25,11 @@ img { max-width: 100%; }
 //* TYPOGRAPHY 
 //*********************************
 a { text-decoration: none; }
+
+h1 {
+    font: {
+        family: Arial, Helvetica, sans-serif;
+        size: 4rem;
+    }
+    text-transform: uppercase;
+}

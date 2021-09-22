@@ -7,7 +7,7 @@ function dev() {
     { images } = require('./images.js'),
     { scripts } = require('./scripts.js'),
     browserSync = require('browser-sync').create(),
-    reload = require('browser-sync');
+    reload = browserSync.reload;
   // CONFIG
   const gulpConfig = {
     delay: 1000, 

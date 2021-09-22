@@ -29,10 +29,10 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 
 ## Commands
 * First, you'll need to install the Yeoman dependency globally by running the `npm install -g yo` command.
-* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-71Pattern-boilerplate` command.
-* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-71Pattern-boilerplate` command.
+* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-71pattern-boilerplate` command.
+* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-71pattern-boilerplate` command.
 
-    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-71Pattern-boilerplate` command.
+    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-71pattern-boilerplate` command.
 
 ## **What's Yeoman?**
 ![](https://yeoman.io/static/tech_stack.987ffff448.png)

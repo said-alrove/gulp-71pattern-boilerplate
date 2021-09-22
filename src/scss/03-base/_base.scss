@@ -1,0 +1,27 @@
+//********************************* 
+//* BASE 
+//*********************************
+html {
+    font-size: 62.5%;
+    @include less.box();
+}
+
+body { font-size: 1.6rem; }
+
+* {
+    margin: 0;
+    padding: 0;
+    @include less.box();
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+img { max-width: 100%; }
+
+//********************************* 
+//* TYPOGRAPHY 
+//*********************************
+a { text-decoration: none; }

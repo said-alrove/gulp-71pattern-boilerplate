@@ -1,4 +1,4 @@
-# [**gulp-71pattern-boilerplate**](https://www.npmjs.com/package/generator-gulp-71Pattern-boilerplate)
+# [**gulp-71pattern-boilerplate**](https://www.npmjs.com/package/generator-gulp-71pattern-boilerplate)
 This is a boilerplate of the structure that I'm currently using in my projects when choosing the 7-1 pattern architecture, this will be uploaded over time.
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).

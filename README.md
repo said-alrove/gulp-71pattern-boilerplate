@@ -74,7 +74,7 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 - [sass-7-1-pattern](https://gist.github.com/rveitch/84cea9650092119527bc)
 - [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
 
-> **Note:** the versions shown in those articles may vary from mine and it's ok, at the end of the day a project structure is different depending on the project needs and differs from person to person, from team to team, and even from companies to companies, therefore this is my own interpretation of a pattern that already exists, but feel free of modifying it if it's necessary
+> **Note:** the versions shown in those articles may vary from mine and it's ok, at the end of the day a project structure is different depending on the project needs and differs from person to person, from team to team, and even from companies to companies, therefore this is my own interpretation of a pattern that already exists, but feel free of modifying it if it's necessary.
 
 ### **Icons**
 * Remember to use [Iconifier](https://iconifier.net/) to create all the icon-size versions of an image.

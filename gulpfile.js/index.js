@@ -7,13 +7,15 @@ function dev() {
     { images } = require('./images.js'),
     { scripts } = require('./scripts.js'),
     browserSync = require('browser-sync').create(),
+    init = browserSync.init,
     reload = browserSync.reload;
   // CONFIG
   const gulpConfig = {
     delay: 1000, 
     ignoreInitial: false
   }
-  browserSync.init({
+  // LIVE-SERVER
+  init({
     server: {
       baseDir: "./public/"
     }

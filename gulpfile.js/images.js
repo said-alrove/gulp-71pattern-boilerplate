@@ -2,7 +2,7 @@ const imagesQuality = 75;
 
 function minify() {
   // PLUGINS
-  const { src, dest } = require('gulp');
+  const { src, dest, lastRun } = require('gulp');
   const 
     imagemin = require('gulp-imagemin'),
     imageminMozjpeg = require('imagemin-mozjpeg'),
@@ -15,7 +15,7 @@ function minify() {
     optimizationLevel: 5
   }
 
-  return src('./src/assets/**/*')
+  return src('./src/assets/**/*', { since: lastRun(minify) })
     .pipe(imagemin([
         imageminMozjpeg(jpegConfig),
         imageminOptipng(pngConfig)
@@ -25,7 +25,7 @@ function minify() {
 
 function convertWebp() {
   // PLUGINS
-  const { src, dest } = require('gulp');
+  const { src, dest, lastRun } = require('gulp');
   const 
     webp = require('gulp-webp'),
     imageminWebp = require('imagemin-webp');
@@ -34,7 +34,7 @@ function convertWebp() {
     quality: imagesQuality
   }
 
-  return src('./src/assets/img/*')
+  return src('./src/assets/img/*', { since: lastRun(convertWebp) })
     .pipe(webp([
       imageminWebp(webpConfig)
     ]))
@@ -43,7 +43,7 @@ function convertWebp() {
 
 function convertAvif() {
   // PLUGINS
-  const { src, dest } = require('gulp');
+  const { src, dest, lastRun } = require('gulp');
   const 
     avif = require('gulp-avif'),
     imageminAvif = require('imagemin-avif');
@@ -51,7 +51,7 @@ function convertAvif() {
   const avifConfig = {
     quality: imagesQuality
   }
-  return src('./src/assets/img/*')
+  return src('./src/assets/img/*', { since: lastRun(convertAvif) })
     .pipe(avif([
       imageminAvif(avifConfig)
     ]))

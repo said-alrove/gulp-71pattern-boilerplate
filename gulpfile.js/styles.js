@@ -24,7 +24,7 @@ function css() {
     sourceMap: true
   }
 
-  return src('./src/scss/app.scss')
+  return src('./src/scss/app.scss', { sourcemaps: true })
     .pipe(plumber())
     .pipe(sass(sassConfig).on("error", sass.logError))
     .pipe(postcss(postcssPlugins))
@@ -32,7 +32,7 @@ function css() {
       content: ['./src/*.html']
     }))
     .pipe(plumber.stop())
-    .pipe(dest('./public/styles'))
+    .pipe(dest('./public/styles', { sourcemaps: '.'}))
 }
 
 // This is mandatory

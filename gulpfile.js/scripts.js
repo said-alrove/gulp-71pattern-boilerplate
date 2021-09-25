@@ -7,12 +7,12 @@ function scripts() {
     return src([
         // YOU CAN ADD MORE PATHS
         './src/scripts/index.js'
-    ])
+    ], { sourcemaps: true })
     .pipe(plumber())
     .pipe(concat('main.js'))
     .pipe(terser())
     .pipe(plumber.stop())
-    .pipe(dest('./public/scripts'))
+    .pipe(dest('./public/scripts', { sourcemaps: '.' }))
 }
 
 // This is mandatory

@@ -1,7 +1,44 @@
 # [**gulp-71pattern-boilerplate**](https://www.npmjs.com/package/generator-gulp-71pattern-boilerplate)
+
+![](README-banner.png)
+
 This is a boilerplate of the structure that I'm currently using in my projects when choosing the 7-1 pattern architecture, this will be uploaded over time.
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
+
+## Installation
+First, You'll need to install the **Yeoman** dependency globally by using the `npm install -g yo` command.
+
+```
+    npm install -g yo
+```
+
+Then, you should install this boilerplate globally by using the `npm install -g generator-gulp-71pattern-boilerplate` command.
+
+``` 
+    npm install -g generator-gulp-71pattern-boilerplate
+```
+
+And, as the last step, you have to go to the directory where you'd like to download this boilerplate and then use the `yo gulp-71pattern-boilerplate` command.
+
+```
+    yo gulp-71pattern-boilerplate
+```
+
+- In case that the package has been updated you can bring the new version to your machine by running the `npm update -g generator-gulp-71pattern-boilerplate` command.
+    ```
+        npm update -g generator-gulp-71pattern-boilerplate
+    ```
+
+* You also will need to install **Gulp CLI** in your machine **if it's your case that you don't have it already** by running the `npm install -g gulp-cli` command.
+
+    ```
+        npm install -g gulp-cli
+    ```
+
+* Once the boilerplate is generated, you'll have to run the `gulp` command every time you want to see your changes processed.
+
+    - When running this command, Gulp will open a local server to see your changes in real-time.
 
 > **Disclaimer:** I'm starting to learn how to use **Git/Github** correctly, therefore there'll be plenty of pull requests, commits and other stuff as tests in this repository, however, *this won't represent my way of working forever*, I'll learn more things along the way as always :D!.
 
@@ -9,17 +46,79 @@ This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/
 
 > **Note:** this boilerplate is automatically generated just by typing a command in the CL thanks to Yeoman.
 
-To understand this boilerplate at all you'll need to have a slight notion about these things:
-    
-- Git.
-- Gulp.js.
-- Javascript.
-- HTML/CSS/SASS.
-- CSS architecture.
-- Netlify **(not mandatory)**.
+To understand this boilerplate at all you'll need to have a slight notion about these technologies:
+
+<a href="https://git-scm.com/">
+    <img 
+        src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="Git logo">
+</a>
+
+<a href="https://gulpjs.com/">
+    <img 
+        src="https://devstickers.com/assets/img/pro/e1bm.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="Gulp.js logo">
+</a>
+
+<a href="https://en.wikipedia.org/wiki/HTML5">
+    <img 
+        src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="HTML5 logo">
+</a>
+
+<a href="https://en.wikipedia.org/wiki/CSS">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="CSS3 logo">
+</a>
+
+<a href="https://www.javascript.com/">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="Javascript logo">
+</a>
+
+<a href="https://sass-lang.com/">
+    <img 
+        src="https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="SASS logo">
+</a>
+
+<a href="https://www.netlify.com/">
+    <img 
+        src="https://cdn.worldvectorlogo.com/logos/netlify.svg"
+        style="
+            width: 50px;
+            height: 50px;
+            margin-inline: 2.5px;"
+        alt="Netlify logo">
+</a>
 
 ## **Table of contents**
-- [Commands](#commands)
 - [What's Yeoman?](#whats-yeoman)
 - [Guide](#guide)
     - [General](#general)
@@ -27,18 +126,6 @@ To understand this boilerplate at all you'll need to have a slight notion about 
     - [Icons](#icons)
     - [Netlify](#netlify)
     - [Gulp tasks](#gulp-tasks)
-
-## Commands
-* First, you'll need to install the Yeoman dependency globally by running the `npm install -g yo` command.
-* Then, you should install this boilerplate globally by running the `npm install -g generator-gulp-71pattern-boilerplate` command.
-* As the last step, you have to go to the directory where you'd like to download the boilerplate and then, run the `yo gulp-71pattern-boilerplate` command.
-
-    - In case that the package has been updated you can bring the new version to your machine by running the `npm update generator-gulp-71pattern-boilerplate` command.
-
-* You also will need to install **Gulp CLI** in your machine by running the `npm install -g gulp-cli` (if it's your case that you don't have it already).
-* Once the boilerplate is generated, you'll have to run the **gulp** command every time you want to see your changes processed.
-
-    - When running this command, Gulp will open a local server to see your changes in real-time.
 
 ## **What's Yeoman?**
 ![](https://yeoman.io/static/tech_stack.987ffff448.png)
@@ -55,15 +142,14 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 
     - In theory, it's totally unnecessary to leave the example assets in the uploaded version because their only use-case is for testing the generator before publishing it, but the problem is that **Npm** ignores empty directories, therefore I considered it better to leave those files there to avoid problems with empty folders.
 
-* The project includes a README boilerplate for the final version that will be pushed to the Git repository. This boilerplate includes:
+* The project includes a **README boilerplate** for the final version that will be pushed to the Git repository. This boilerplate includes:
 
-    - A **disclaimer** (this is personal, you can remove it if it's not your case that you're learning Git/Github).
-    - A **table of contents** linked to all the headings in the README.
-    - A **what I learned** section to include everything you learned while creating that project.
-    - A **lectures** section to include those articles that you read while doing the project and that helped you to build it.
-    - A **preview** section to include the screenshot of your project as a preview of it.
-    - A **reports** section to include the results of the reports (as screenshots) of services like [Lighthouse](https://developers.google.com/web/tools/lighthouse) or [GTmetrix](https://gtmetrix.com/).
-    - An **Open-graph** section to include the Open-graph cards of both Twitter and Facebook (you can remove it if it's the case that you didn't include the Open-graph tags in you project).
+    - **Disclaimer** (this is personal, you can remove it if it's not your case that you're learning Git/Github).
+    - **Table of contents** linked to all the headings in the README.
+    - **What I learned** section to include everything you learned while creating that project.
+    - **Preview** section to include the screenshot of your project as a preview of it.
+    - **Reports** section to include the results of the reports (as screenshots) of services like [Lighthouse](https://developers.google.com/web/tools/lighthouse) or [GTmetrix](https://gtmetrix.com/).
+    - **Open-graph** section to include the Open-graph cards of both Twitter and Facebook (you can remove it if it's the case that you didn't include the Open-graph tags in you project).
 
 * Both, the public and the src directories will be included when pushing changes to upstream, but the public can be removed if you want just by adding the directory to the .gitignore file.
 
@@ -72,9 +158,9 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 ### **7-1 pattern**
 * If you'd like to know more about what's each **SASS** directory about, you can check these articles for more information:
 
-- [Use the 7-1 pattern for a manageable codebase](https://openclassrooms.com/en/courses/5625786-produce-maintainable-css-with-sass/5723581-use-the-7-1-pattern-for-a-manageable-codebase)
-- [sass-7-1-pattern](https://gist.github.com/rveitch/84cea9650092119527bc)
-- [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
+    - [Use the 7-1 pattern for a manageable codebase](https://openclassrooms.com/en/courses/5625786-produce-maintainable-css-with-sass/5723581-use-the-7-1-pattern-for-a-manageable-codebase)
+    - [sass-7-1-pattern](https://gist.github.com/rveitch/84cea9650092119527bc)
+    - [7-1 Sass Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
 
 > **Note:** the versions shown in those articles may vary from mine and it's ok, at the end of the day a project structure is different depending on the project needs and differs from person to person, from team to team, and even from companies to companies, therefore this is my own interpretation of a pattern that already exists, but feel free of modifying it if it's necessary.
 
@@ -93,42 +179,42 @@ To understand this boilerplate at all you'll need to have a slight notion about 
 If you don't know anything about what I've mentioned before, I encourage you to leave the file as it's by default, it'll work just perfectly with the current project structure. In case you won't use Netlify to deploy the site you can remove it without problems.
 
 ### **Gulp tasks**
-* The plugins used by default are the following:
+The plugins used by default are the following:
 
-**HTML tasks**
+- **HTML tasks**
 
-- [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
-- [gulp-cache-bust](https://www.npmjs.com/package/gulp-cache-bust)
-- [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
+    - [gulp-cache-bust](https://www.npmjs.com/package/gulp-cache-bust)
+    - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
 
-**Images tasks**
+- **Images tasks**
 
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg)
-- [imagemin-optipng](https://www.npmjs.com/package/imagemin-optipng)
-- [gulp-webp](https://www.npmjs.com/package/gulp-webp)
-- [imagemin-webp](https://www.npmjs.com/package/imagemin-webp)
-- [gulp-avif](https://www.npmjs.com/package/gulp-avif)
-- [imagemin-avif](https://www.npmjs.com/package/imagemin-avif)
+    - [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
+    - [imagemin-mozjpeg](https://www.npmjs.com/package/imagemin-mozjpeg)
+    - [imagemin-optipng](https://www.npmjs.com/package/imagemin-optipng)
+    - [gulp-webp](https://www.npmjs.com/package/gulp-webp)
+    - [imagemin-webp](https://www.npmjs.com/package/imagemin-webp)
+    - [gulp-avif](https://www.npmjs.com/package/gulp-avif)
+    - [imagemin-avif](https://www.npmjs.com/package/imagemin-avif)
 
-**Javascript tasks**
+- **Javascript tasks**
 
-- [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
-- [gulp-concat](https://www.npmjs.com/package/gulp-concat)
-- [terser](https://www.npmjs.com/package/terser)
+    - [gulp-plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+    - [terser](https://www.npmjs.com/package/terser)
 
-**Styles tasks**
-- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
-- [sass](https://www.npmjs.com/package/sass)
-- [gulp-purgecss](https://www.npmjs.com/package/gulp-purgecss)
-- [plumber](https://www.npmjs.com/package/gulp-plumber)
-- [gulppostcss](https://www.npmjs.com/package/gulp-postcss)
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer)
-- [cssnano](https://www.npmjs.com/package/cssnano)
+- **Styles tasks**
+    - [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+    - [sass](https://www.npmjs.com/package/sass)
+    - [gulp-purgecss](https://www.npmjs.com/package/gulp-purgecss)
+    - [plumber](https://www.npmjs.com/package/gulp-plumber)
+    - [gulppostcss](https://www.npmjs.com/package/gulp-postcss)
+    - [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+    - [cssnano](https://www.npmjs.com/package/cssnano)
 
-> **Note:** if you'd like to know more about what each plugin does you can click the links that send you to the npm package and then read the descriptions for more information.
+> **Note:** if you'd like to know more about what each plugin does you can click the links that send you to the **npm package** and then read the descriptions for more information.
 
-> **Note:** remember that if you'd like to change the folders' names you'll have also to change them in the Gulp tasks paths that could be related to that directory.
+> **Note:** remember that if you'd like to change the folders' names you'll have also to change them in the **Gulp tasks** paths that could be related to that directory.
 
 
 * The task located in the scripts.js file have only 1 source, if you'd like to add more files or complete directories... feel free to do it!, just add new strings with the path to the file/directory of your preference (remember to add a comma after each string).

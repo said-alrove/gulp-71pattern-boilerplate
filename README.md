@@ -1,8 +1,14 @@
 # [**gulp-71pattern-boilerplate**](https://www.npmjs.com/package/generator-gulp-71pattern-boilerplate)
 
-![](README-banner.png)
+![npm](https://img.shields.io/npm/v/generator-gulp-71pattern-boilerplate)
+
+<a href="https://nodei.co/npm/generator-gulp-71pattern-boilerplate/">
+    <img src="https://nodei.co/npm/generator-gulp-71pattern-boilerplate.png">
+</a>
 
 This is a boilerplate of the structure that I'm currently using in my projects when choosing the 7-1 pattern architecture, this will be uploaded over time.
+
+![](README-banner.png)
 
 This project was possible thanks to [**Coder Coder**](https://www.youtube.com/c/TheCoderCoder/featured) with her video [Generate website starter files with just one command!](https://www.youtube.com/watch?v=NgaV7503dTk&t=480s&ab_channel=CoderCoder). If you'd like to check his boilerplate generator [check this out](https://github.com/thecodercoder/generator-gulp-sass-boilerplate).
 
